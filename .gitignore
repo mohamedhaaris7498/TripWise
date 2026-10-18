@@ -1,0 +1,29 @@
+# Environment and Secrets
+.env
+.env.local
+*.env
+
+# Python Virtual Environments & Cache
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Database & SQLite files
+*.db
+*.sqlite3
+tripwise.db
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / JS artifacts (if any)
+node_modules/
+npm-debug.log*
